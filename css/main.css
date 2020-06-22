@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Oswald:wght@400;600&display=swap");
+.test h1 {
+  height: 40px;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: start;
+  font-weight: bold;
+  font-family: "Oswald", "Noto Sans TC", sans-serif;
+  padding-top: 20px;
+  
+  margin: 10px;
+}
+.test p {
+ padding-top: 30px;
+ line-height: 1.6;
+ letter-spacing: 0.4px;
+  color: rgb(61, 61, 61);
+}
+.all{
+  background-color: rgb(129, 208, 253);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Noto Sans TC",  sans-serif;
+}
+
+.info{
+  padding-left: 10px;
+}
+
+.inputbox{
+  padding-top: 10px;
+  padding-left:25px ;
+  padding-right: 25px;
+  margin-bottom: 20px;
+}
+
+.line {
+  width: 500px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+  
+}
+#show{
+  padding-top: 20px;
+ padding-bottom: 20px;
+}
+.btn1 {
+  margin-top: 15px;
+}
+.btn1:hover{
+  cursor: pointer;
+}

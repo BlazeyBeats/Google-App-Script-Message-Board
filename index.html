@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>bs4樣版</title>
+  </head>
+  <body>
+    <div class="all">
+    <div class="container">
+    <div class="test container">
+      <h1>黑特國北 NTUE Hates</h1>
+      <p class="container">在這裡，想講什麼就講什麼<br>
+         但請記得不要出口成髒<br>
+         雖然黑特國北被抄家<br>
+         但黑特精神永遠都會在:))
+      </p>
+    </div>
+    <form class="inputbox">
+      <div class="form-group">
+        <label for="name">名字:</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="你的名字或綽號，也可以不輸入">
+      </div>
+      <div class="form-group">
+        <label for="score">留言:
+        </label>
+        <input type="text" class="form-control" id="score" name="score" placeholder="來黑特點什麼吧">
+      </div>
+      <input type="hidden" name="method" value="write1">
+      <div class="btn btn-primary btn1">我要黑特!</div>
+    </form>
+  </div>
+  </div>
+    <!-- Optional JavaScript-->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <div id="show" class="container"></div>
+  </body>
+  <template id="template01" style="display:none">
+    <div class="col-12 col-md-4 col-lg-3 mb-4">
+        <div class="info">
+          <div class="line line1"><b>ABC :</b><p>DEF</p></div>
+        </div>
+      </div>
+    </div>
+  </template>
+</html>
